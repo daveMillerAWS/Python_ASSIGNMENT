@@ -21,9 +21,7 @@ while True:
                 result = "is a prime number"
             else:
                 for divider in range(2,num):
-                    print(divider)
                     if num % divider == 0:
-                        print("break")
                         break
                     result = "is a prime number"
     else:
